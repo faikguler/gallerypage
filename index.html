@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image gallery</title>
+    <meta lang="en" />
+    <meta name="viewport" content="width:device-width, initial-scale:1.0" />
+    <link rel="stylesheet" href="index.css" />
+<script>
+function showhide(divid) {
+  var x = document.getElementById(divid);
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>	
+  </head>
+  
+ <body>
+	<h1 class="center">Flexbox</h1>
+	<div class="cards">
+		<div class="card-item">
+			<div class="card-body">
+				<img class="card-img" src="https://resimdiyari.com/_data/i/upload/2012/10/14/20121014183557-aa07b708-me.jpg" alt="" />
+				<p id="1" class="card-text">I write any description. I write any description. I write any description. I write any description.I write any description. I write any description. I write any description. I write any description.</p>
+				<div class="card-footer center">
+					<a class="btn" onclick="showhide(1);">Show/Hide</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-item">
+			<div class="card-body">
+								<img class="card-img" src="https://ifeelyoga.com/wp-content/uploads/2015/06/11713924_10152972128860998_7453822998453312419_o.jpg" alt="" />
+				<p id="2" class="card-text">I write any description. I write any description. I write any description. I write any description.I write any description. I write any description. I write any description. I write any description.I write any description. I write any description. I write any description. I write any description.</p>
+				<div class="card-footer center">
+					<a class="btn" onclick="showhide(2);">Show/Hide</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-item">
+			<div class="card-body">
+				<img class="card-img" src="https://cdn.pixabay.com/photo/2017/12/22/17/28/nature-3033979_960_720.jpg" alt="" />
+
+				<p id="3" class="card-text">I write any description. I write any description. I write any description. I write any description.</p>
+				<div class="card-footer center">
+					<a class="btn" onclick="showhide(3);">Show/Hide</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-item">
+			<div class="card-body">
+				<img class="card-img" src="https://www.camhotel.com.tr/wp-content/uploads/2018/08/doga-nedir-1.jpg" alt="" />
+
+				<p id="4" class="card-text">I write any description. I write any description. I write any description. I write any description.I write any description. I write any description. I write any description. I write any description.</p>
+				<div class="card-footer center">
+					<a class="btn" onclick="showhide(4);">Show/Hide</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-item">
+			<div class="card-body">
+								<img class="card-img" src="https://isbh.tmgrup.com.tr/sbh/2018/10/28/doga-sevgi-ve-sefkat-en-guzel-ilac-1540675817006.jpeg" alt="" />
+				<p id="5" class="card-text">I write any description. I write any description. I write any description. I write any description.</p>
+				<div class="card-footer center">
+					<a class="btn" onclick="showhide(5);">Show/Hide</a>
+				</div>
+			</div>
+		</div>
+		<div class="card-item">
+			<div class="card-body">
+				<img class="card-img" src="https://www.doganinsesiturkiye.com/resim/upload/sb1854.jpg" alt="" />
+
+				<p id="6" class="card-text">I write any description. I write any description.</p>
+				<div class="card-footer center">
+					<a class="btn" onclick="showhide(6);">Show/Hide</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
